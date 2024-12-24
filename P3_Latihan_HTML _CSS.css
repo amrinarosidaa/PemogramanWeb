@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f800ae3a;
+    box-shadow: 0 2px 4px rgba(0,0,0,0,1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size; 2.5cm;
+    color: #47093a;
+}
+
+p {
+    margin: 0;
+    color: #000000;
+}
+
+.Profil,
+.Skills,
+.Pengalaman,
+.Pendidikan {
+    margin-bottom: 30px;
+    color:r#cf58bb(238, 28, 115)
+}
+
+h2 {
+    margin: 0 0 10px 0;
+    color: #47093a;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #c271ae;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+    margin: 0 0 5px 0;
+    color: #ca42b4;
+}
+
+article p {
+    margin: 0;
+    color:#000000;
+}

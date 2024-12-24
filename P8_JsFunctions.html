@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JS Function </title>
+    </head>
+    <body>
+        <script>
+        // // Function
+        // // Membuat function dengan nama sayHello
+        // function sayHello() {
+        // document.write("Hello Folks!!");
+        // }
+        // //Memanggil funvtion sayHello
+        // sayHello(); // Bisa dipanggil berkali kali
+
+        // // Function With Parameters
+        // function sayHelloWithParams(firstName, lastName) {
+        //     document.write("Hello "+firstName+" "+ lastName+"!<br>")
+        // }
+
+        // sayHelloWithParams("Amrina", "Rosida");
+        // sayHelloWithParams("Imron");
+ 
+        // // Aonymous Function 
+        // // Membuat anonymous function dengan parameter name dan di simpan dalam variabel hello
+        // let hello = function (name){
+        //     document.write(`Hello ${name} </br>`);
+        // }
+        // // Memanggil anonymous function melalui variabel hello
+        // hello("Andre");
+
+        // // Function in Function
+        // function outerFunction(outerVariabel){
+        //     function innerFuction(innerVariabel){
+        //         document.write("Outer Variabel: "+outerVariabel);
+        //         document.write("Inner Variabel: "+innerVariabel);
+        //     }
+        //     innerFuction("Inner");
+        // }
+        // outerFunction("Outer");
+
+        // // Arrow Function
+        // const greet = (name) => {
+        //     document.writeln("Hello, "+ name +"!<br>");
+        // }
+
+        // greet ('Amrina');
+
+        // // Closure
+        function outerFunction(outerVariabel){
+            return function InnerFunction(innerVariable){
+                document.write("Outer Variabel: " + outerVariabel);
+                document.write("Inner Variabel: " + innerVariabel);
+            }
+        }
+        const newFunction = outerFunction ("Outer");
+        newFunction("Inner");
+        newFunction("Outer");
+
+
+        </script>
+    </body>
+</html> 
+
